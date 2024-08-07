@@ -23,7 +23,7 @@ const LoginForm = () => {
 
   return (
     <div className="signup-form">
-      <h2>Register</h2>
+      <h2>Login</h2>
       <form onSubmit={handleSubmit}>
 
         <div className="form-group">
@@ -55,11 +55,11 @@ const LoginForm = () => {
         </div>
 
         <button type="submit" className="form-button">
-          Register
+          Login
         </button>
       </form>
-        <p>Already have an account?</p>
-        <Link to="/login" className="form-button">Login</Link>
+        <p>Don't have an account?</p>
+        <Link to="/signup" className="form-button">Register</Link>
     </div>
   )
 }
